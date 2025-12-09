@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Username Generator • TrendBoard Tools</title>
+<meta name="description" content="Generate cool usernames instantly.">
+<style>
+body { font-family: Arial; max-width: 700px; padding: 20px; }
+input, button { width:100%; padding:10px; margin:10px 0; font-size:16px; }
+#list { margin-top:20px; line-height:1.7; }
+</style>
+</head>
+<body>
+
+<h1>Username Generator</h1>
+<input id="word" placeholder="Enter keyword (e.g., shadow, neon)">
+<button onclick="makeUser()">Generate Usernames</button>
+
+<div id="list"></div>
+
+<script>
+function makeUser() {
+    let w = document.getElementById("word").value;
+    if (!w) return alert("Enter a word");
+
+    let arr = [
+        `${w}X`,
+        `Real${w}`,
+        `${w}Master`,
+        `${w}_HQ`,
+        `${w}Official`,
+        `${w}Zone`,
+        `The${w}Hub`,
+        `${w}Prime`,
+        `${w}World`,
+        `${w}Nation`
+    ];
+
+    document.getElementById("list").innerHTML = arr.join("<br>");
+}
+</script>
+
+</body>
+</html>
