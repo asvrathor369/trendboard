@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hashtag Generator • TrendBoard Tools</title>
+<meta name="description" content="Generate popular hashtags instantly. Free and fast hashtag generator tool.">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    max-width: 700px;
+}
+h1 { margin-bottom: 5px; }
+textarea, input {
+    width: 100%; padding: 10px;
+    margin: 10px 0; font-size: 16px;
+}
+button {
+    padding: 12px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#output {
+    margin-top: 20px; padding: 10px;
+    background: #f0f0f0; min-height: 80px;
+}
+</style>
+</head>
+<body>
+
+<h1>Hashtag Generator</h1>
+<p>Enter a topic and get auto-generated hashtags instantly.</p>
+
+<input id="topic" placeholder="e.g., travel, fitness, food">
+<button onclick="generate()">Generate Hashtags</button>
+
+<div id="output"></div>
+
+<script>
+function generate() {
+    let t = document.getElementById("topic").value.trim();
+    if (!t) return alert("Enter a topic first.");
+
+    let tags = [
+        `#${t}`,
+        `#${t}life`,
+        `#${t}love`,
+        `#${t}vibes`,
+        `#${t}gram`,
+        `#${t}daily`,
+        `#${t}world`,
+        `#${t}community`,
+        `#${t}story`,
+        `#${t}goals`
+    ];
+
+    document.getElementById("output").innerText = tags.join(" ");
+}
+</script>
+
+</body>
+</html>
