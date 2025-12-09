@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Caption Creator • TrendBoard Tools</title>
+<meta name="description" content="Generate short and aesthetic captions instantly.">
+<style>
+body { font-family: Arial; max-width: 700px; padding: 20px; }
+textarea, input, button { width:100%; padding:10px; margin:10px 0; font-size:16px; }
+#output { background:#f0f0f0; padding:12px; min-height:70px; }
+</style>
+</head>
+<body>
+
+<h1>Caption Creator</h1>
+<input id="topic" placeholder="Enter topic (e.g., beach, food)">
+<button onclick="make()">Create Caption</button>
+
+<div id="output"></div>
+
+<script>
+function make() {
+    let t = document.getElementById("topic").value.trim();
+    if (!t) return alert("Enter a topic");
+
+    let captions = [
+        `Living my best ${t} moments.`,
+        `${t} vibes only.`,
+        `Chasing ${t} dreams.`,
+        `${t} days are the best days.`,
+        `Made of pure ${t} energy.`
+    ];
+
+    let pick = captions[Math.floor(Math.random()*captions.length)];
+    document.getElementById("output").innerText = pick;
+}
+</script>
+
+</body>
+</html>
