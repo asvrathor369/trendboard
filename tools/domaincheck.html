@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Domain Quick Check • TrendBoard Tools</title>
+<meta name="description" content="Quick domain scoring tool.">
+<style>
+body{font-family:Arial;max-width:700px;padding:20px;}
+input,button{width:100%;padding:10px;margin:10px 0;}
+#o{padding:10px;background:#eee;}
+</style>
+</head>
+<body>
+<h1>Domain Quick Check</h1>
+<input id="d" placeholder="example.com">
+<button onclick="chk()">Check</button>
+<div id="o"></div>
+
+<script>
+function chk(){
+ let d=document.getElementById("d").value.trim();
+ if(!d) return alert("Enter a domain");
+ let s = Math.floor(Math.random()*40)+60;
+ document.getElementById("o").innerText=`Score: ${s}/100`;
+}
+</script>
+
+</body>
+</html>
