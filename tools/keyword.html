@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Keyword Explorer • TrendBoard Tools</title>
+<meta name="description" content="Get related keywords instantly.">
+<style>
+body { font-family: Arial; max-width:700px; padding:20px; }
+input, button { width:100%; padding:10px; margin:10px 0; }
+#out { padding:12px; background:#f0f0f0; }
+</style>
+</head>
+<body>
+
+<h1>Keyword Explorer</h1>
+<input id="key" placeholder="Enter seed keyword">
+<button onclick="explore()">Explore</button>
+<div id="out"></div>
+
+<script>
+function explore() {
+    let k = document.getElementById("key").value;
+    if (!k) return alert("Enter a keyword");
+
+    let rl = [
+        `${k} tips`,
+        `${k} guide`,
+        `${k} tricks`,
+        `${k} beginner`,
+        `${k} ideas`,
+        `${k} hacks`,
+        `${k} info`
+    ];
+
+    document.getElementById("out").innerHTML = rl.join("<br>");
+}
+</script>
+
+</body>
+</html>
