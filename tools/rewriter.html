@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Paragraph Rewriter • TrendBoard Tools</title>
+<meta name="description" content="Rewrite text instantly.">
+<style>
+body{font-family:Arial;max-width:700px;padding:20px;}
+textarea,button{width:100%;padding:10px;margin:10px 0;}
+#out{padding:12px;background:#eee;min-height:80px;}
+</style>
+</head>
+<body>
+<h1>AI Paragraph Rewriter</h1>
+<textarea id="t" placeholder="Enter text here"></textarea>
+<button onclick="rw()">Rewrite</button>
+<div id="out"></div>
+
+<script>
+function rw(){
+ let x=document.getElementById("t").value.trim();
+ if(!x) return alert("Enter text first.");
+
+ let y="Rewritten: " + x.replace(/is/g,"seems to be").replace(/are/g,"appear to be");
+ document.getElementById("out").innerText=y;
+}
+</script>
+
+</body>
+</html>
