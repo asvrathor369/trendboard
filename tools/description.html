@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Description Generator • TrendBoard Tools</title>
+<meta name="description" content="Generate short descriptions instantly.">
+<style>
+body { font-family: Arial; max-width:700px; padding:20px; }
+input, button, textarea { width:100%; padding:10px; margin:10px 0; }
+#out { padding:12px; background:#eee; min-height:70px; }
+</style>
+</head>
+<body>
+
+<h1>Description Generator</h1>
+<input id="topic" placeholder="Enter topic">
+<button onclick="gen()">Generate</button>
+<div id="out"></div>
+
+<script>
+function gen() {
+    let t = document.getElementById("topic").value;
+    if (!t) return alert("Enter a topic");
+
+    let d = `A clean, simple and engaging ${t} description crafted to attract attention and deliver clarity in seconds.`;
+    document.getElementById("out").innerText = d;
+}
+</script>
+
+</body>
+</html>
