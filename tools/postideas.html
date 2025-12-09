@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Post Ideas Generator • TrendBoard Tools</title>
+<meta name="description" content="Get instant creative content ideas.">
+<style>
+body{font-family:Arial;max-width:700px;padding:20px;}
+input,button{width:100%;padding:10px;margin:10px 0;}
+#out{line-height:1.8;padding:10px;background:#eee;}
+</style>
+</head>
+<body>
+<h1>Post Ideas Generator</h1>
+<input id="t" placeholder="Enter topic">
+<button onclick="go()">Generate Ideas</button>
+<div id="out"></div>
+
+<script>
+function go(){
+ let t=document.getElementById("t").value;
+ if(!t) return alert("Enter a topic");
+
+ let arr=[
+ `Top 5 ${t} myths.`,
+ `Beginner's guide to ${t}.`,
+ `Why people love ${t}.`,
+ `3 mistakes to avoid in ${t}.`,
+ `How to start with ${t}.`
+ ];
+ document.getElementById("out").innerHTML=arr.join("<br>");
+}
+</script>
+
+</body>
+</html>
