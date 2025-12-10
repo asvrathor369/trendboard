@@ -1,31 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Discover — TrendBoard</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
-<body class="theme-light">
+<body>
   <header class="topbar">
     <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Discover</small></div></div>
     <nav class="nav"><a href="index.html">Home</a><a href="trends.html">Trends</a><a href="discover.html" class="active">Discover</a><a href="insights.html">Insights</a><a href="tools/index.html">Tools</a></nav>
-    <div class="actions"><button id="themeToggle3" class="btn icon-btn">🌙</button></div>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
   </header>
 
-  <main class="main">
-    <section class="page-header glass">
-      <h2>Discover</h2>
-      <p>Explore categories and local trend hubs.</p>
+  <main class="container">
+    <section class="card glass">
+      <h2>Discover Categories</h2>
+      <p class="muted">Explore local and global content categories.</p>
     </section>
 
-    <section class="category-grid">
-      <a class="cat-card glass" id="technology" href="#">Technology</a>
-      <a class="cat-card glass" id="entertainment" href="#">Entertainment</a>
-      <a class="cat-card glass" id="sports" href="#">Sports</a>
-      <a class="cat-card glass" id="finance" href="#">Finance</a>
-      <a class="cat-card glass" id="lifestyle" href="#">Lifestyle</a>
-      <a class="cat-card glass" id="regional" href="#">Regional / Local</a>
+    <section style="margin-top:16px" class="grid">
+      <a class="card glass" href="#technology"><h3>Technology</h3><p class="muted">AI, gadgets, startups</p></a>
+      <a class="card glass" href="#entertainment"><h3>Entertainment</h3><p class="muted">Movies, music, shows</p></a>
+      <a class="card glass" href="#sports"><h3>Sports</h3><p class="muted">Football, cricket, tournaments</p></a>
+      <a class="card glass" href="#regional"><h3>Regional</h3><p class="muted">Local creators & trends</p></a>
     </section>
   </main>
 
