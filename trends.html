@@ -1,51 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Live Trends — TrendBoard</title>
-  <meta name="description" content="Live trending topics from public sources — Reddit, Hacker News and more. Updated client-side." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="Live trending topics aggregated from public sources." />
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body class="theme-light">
   <header class="topbar">
-    <div class="brand">
-      <div class="logo-mark">TB</div>
-      <div class="brand-text"><h1>TrendBoard</h1><small>Live Trends</small></div>
-    </div>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="trends.html" class="active">Trends</a>
-      <a href="discover.html">Discover</a>
-      <a href="insights.html">Insights</a>
-      <a href="leaderboard.html">Leaderboard</a>
-      <a href="tools/index.html">Tools</a>
-    </nav>
-    <div class="actions">
-      <button id="themeToggleTop" class="btn icon-btn">🌙</button>
-    </div>
+    <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Trends</small></div></div>
+    <nav class="nav"><a href="index.html">Home</a><a href="trends.html" class="active">Trends</a><a href="discover.html">Discover</a><a href="insights.html">Insights</a><a href="tools/index.html">Tools</a></nav>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
   </header>
 
-  <main class="main">
-    <section class="page-header glass">
+  <main class="container">
+    <section class="card glass">
       <h2>Live Trends</h2>
-      <p>Aggregated from public sources — client-side updates every minute.</p>
+      <p class="muted">Aggregated from Reddit and Hacker News (client-side).</p>
     </section>
 
-    <section class="trend-panels">
-      <div class="panel glass">
-        <h3>Reddit — r/popular (top)</h3>
+    <section style="margin-top:16px" class="grid">
+      <div class="card">
+        <h3>Reddit — r/popular</h3>
         <ul id="redditHot" class="trend-list"><li>Loading…</li></ul>
       </div>
 
-      <div class="panel glass">
+      <div class="card">
         <h3>Hacker News — Top</h3>
         <ul id="hnHot" class="trend-list"><li>Loading…</li></ul>
       </div>
 
-      <div class="panel glass">
-        <h3>Twitter/X — Short snapshot</h3>
-        <ul id="xHot" class="trend-list'><li>Live client-side snapshots</li></ul>
+      <div class="card">
+        <h3>Quick Tools</h3>
+        <p class="muted">Jump to related tools quickly.</p>
+        <a class="small-btn" href="tools/hashtag.html">Hashtags</a>
+        <a class="small-btn" href="tools/caption.html" style="margin-left:8px">Captions</a>
       </div>
     </section>
   </main>
