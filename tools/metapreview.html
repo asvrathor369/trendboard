@@ -1,35 +1,42 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Meta Tags Preview • TrendBoard Tools</title>
-<meta name="description" content="Preview how your meta title and description will look on Google.">
-<style>
-body{font-family:Arial;max-width:700px;padding:20px;}
-textarea,input,button{width:100%;padding:10px;margin:10px 0;}
-#out{padding:10px;background:#eee;}
-</style>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Meta Preview — TrendBoard Tools</title>
+  <meta name="description" content="Preview how your title and meta description will appear on search results.">
+  <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
+  <header class="topbar">
+    <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Meta Preview</small></div></div>
+    <nav class="nav"><a href="../index.html">Home</a><a href="index.html">Tools</a></nav>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
+  </header>
 
-<h1>Meta Tags Preview Tool</h1>
-<input id="title" placeholder="Page title">
-<textarea id="desc" placeholder="Meta description"></textarea>
-<button onclick="gen()">Preview</button>
+  <main class="container">
+    <section class="card glass">
+      <h2>Meta Tags Preview</h2>
+      <p class="muted">Enter title and description to preview a Google-like result card.</p>
+      <input id="mp_title" placeholder="Title (<=60 chars)" />
+      <textarea id="mp_desc" rows="3" placeholder="Meta description (<=160 chars)"></textarea>
+      <div style="margin-top:8px"><button id="mp_gen" class="primary-btn">Preview</button></div>
+      <div id="mp_out" class="output" style="margin-top:12px"></div>
+    </section>
+  </main>
 
-<div id="out"></div>
-
+<script src="../assets/script.js"></script>
 <script>
-function gen(){
- let t=document.getElementById("title").value;
- let d=document.getElementById("desc").value;
-
- if(!t || !d) return alert("Complete both fields.");
-
- document.getElementById("out").innerHTML=
- `<strong>${t}</strong><br><span style='color:#006621'>trendboard.tools › preview</span><br>${d}`;
-}
+(function(){
+  const title = document.getElementById('mp_title'), desc = document.getElementById('mp_desc'), out = document.getElementById('mp_out');
+  document.getElementById('mp_gen').addEventListener('click', ()=>{
+    const t = (title.value || '').trim();
+    const d = (desc.value || '').trim();
+    if(!t || !d) return out.textContent = 'Enter both title and description';
+    const tShort = t.length > 60 ? t.slice(0,57)+'...' : t;
+    const dShort = d.length > 160 ? d.slice(0,157)+'...' : d;
+    out.innerHTML = `<div style="font-weight:700;color:#1a73e8">${window.TB.escapeHtml(tShort)}</div><div style="color:#006621;font-size:13px">trendboard.tools › preview</div><div style="margin-top:8px">${window.TB.escapeHtml(dShort)}</div>`;
+  });
+})();
 </script>
-
 </body>
 </html>
