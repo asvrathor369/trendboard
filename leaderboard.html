@@ -1,29 +1,20 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Leaderboard — TrendBoard</title>
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
-<body class="theme-light">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Leaderboard — TrendBoard</title><link rel="stylesheet" href="assets/style.css"/></head>
+<body>
   <header class="topbar">
     <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Leaderboard</small></div></div>
     <nav class="nav"><a href="index.html">Home</a><a href="trends.html">Trends</a><a href="discover.html">Discover</a><a href="insights.html">Insights</a><a href="tools/index.html">Tools</a></nav>
-    <div class="actions"><button id="themeToggle4" class="btn icon-btn">🌙</button></div>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
   </header>
 
-  <main class="main">
-    <section class="page-header glass">
-      <h2>Creator Leaderboard</h2>
-      <p>Creators and accounts currently trending across platforms.</p>
-    </section>
-
-    <section class="leaderboard-list">
-      <ol class="panel glass">
-        <li><strong>@creator_one</strong><br><small class="muted">Trending for: viral short</small></li>
-        <li><strong>@creator_two</strong><br><small class="muted">Trending for: unique POV</small></li>
-        <li><strong>@creator_three</strong><br><small class="muted">Trending for: collaboration</small></li>
+  <main class="container">
+    <section class="card glass"><h2>Creator Leaderboard</h2><p class="muted">Creators who recently trended across sources.</p></section>
+    <section style="margin-top:16px" class="card glass">
+      <ol style="margin:0 0 0 18px;padding:0">
+        <li style="padding:10px 0"><strong>@creator_one</strong><div class="muted">Reason: viral short</div></li>
+        <li style="padding:10px 0"><strong>@creator_two</strong><div class="muted">Reason: news commentary</div></li>
+        <li style="padding:10px 0"><strong>@creator_three</strong><div class="muted">Reason: unique POV</div></li>
       </ol>
     </section>
   </main>
