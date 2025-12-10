@@ -1,40 +1,71 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Keyword Explorer • TrendBoard Tools</title>
-<meta name="description" content="Get related keywords instantly.">
-<style>
-body { font-family: Arial; max-width:700px; padding:20px; }
-input, button { width:100%; padding:10px; margin:10px 0; }
-#out { padding:12px; background:#f0f0f0; }
-</style>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Keyword Explorer — TrendBoard Tools</title>
+  <meta name="description" content="Quickly generate related keywords and long-tail phrases.">
+  <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
+  <header class="topbar">
+    <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Keyword Explorer</small></div></div>
+    <nav class="nav"><a href="../index.html">Home</a><a href="index.html">Tools</a></nav>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
+  </header>
 
-<h1>Keyword Explorer</h1>
-<input id="key" placeholder="Enter seed keyword">
-<button onclick="explore()">Explore</button>
-<div id="out"></div>
+  <main class="container">
+    <section class="card glass">
+      <h2>Keyword Explorer</h2>
+      <p class="muted">Enter a seed keyword to get short and long-tail keyword suggestions suitable for titles and descriptions.</p>
+      <input id="k_seed" placeholder="e.g., budget smartphone" />
+      <div style="margin-top:10px;display:flex;gap:8px">
+        <select id="k_type"><option value="all">All</option><option value="questions">Questions</option><option value="longtail">Long-tail</option></select>
+        <button id="k_gen" class="primary-btn">Explore</button>
+      </div>
 
+      <div id="k_out" class="output" style="margin-top:12px"></div>
+    </section>
+  </main>
+
+<script src="../assets/script.js"></script>
 <script>
-function explore() {
-    let k = document.getElementById("key").value;
-    if (!k) return alert("Enter a keyword");
+(function(){
+  const seed = document.getElementById('k_seed');
+  const out = document.getElementById('k_out');
+  const gen = document.getElementById('k_gen');
 
-    let rl = [
-        `${k} tips`,
-        `${k} guide`,
-        `${k} tricks`,
-        `${k} beginner`,
-        `${k} ideas`,
-        `${k} hacks`,
-        `${k} info`
-    ];
+  gen.addEventListener('click', ()=>{
+    const s = seed.value.trim();
+    if(!s) return out.textContent = 'Enter a seed keyword';
+    const type = document.getElementById('k_type').value;
+    const base = s.toLowerCase();
+    const words = base.split(/\s+/).slice(0,4).join(' ');
+    const results = [];
 
-    document.getElementById("out").innerHTML = rl.join("<br>");
-}
+    // core suggestions
+    results.push(`${words} review`);
+    results.push(`best ${words}`);
+    results.push(`${words} 2025`);
+    results.push(`how to ${words}`);
+    results.push(`${words} comparison`);
+
+    // long-tail
+    if(type === 'all' || type === 'longtail'){
+      results.push(`how to choose ${words} for beginners`);
+      results.push(`${words} tips and tricks`);
+      results.push(`${words} setup guide`);
+    }
+
+    // question style
+    if(type === 'all' || type === 'questions'){
+      results.push(`what is the best ${words}?`);
+      results.push(`is ${words} worth it?`);
+      results.push(`how to use ${words} safely`);
+    }
+
+    out.innerHTML = results.map(r=>`<div style="padding:6px 0">${r}</div>`).join('');
+  });
+})();
 </script>
-
 </body>
 </html>
