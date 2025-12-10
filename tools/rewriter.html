@@ -1,30 +1,74 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Paragraph Rewriter • TrendBoard Tools</title>
-<meta name="description" content="Rewrite text instantly.">
-<style>
-body{font-family:Arial;max-width:700px;padding:20px;}
-textarea,button{width:100%;padding:10px;margin:10px 0;}
-#out{padding:12px;background:#eee;min-height:80px;}
-</style>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Paragraph Rewriter — TrendBoard Tools</title>
+  <meta name="description" content="Rewrite short paragraphs: simplify, shorten or formalize.">
+  <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
-<h1>AI Paragraph Rewriter</h1>
-<textarea id="t" placeholder="Enter text here"></textarea>
-<button onclick="rw()">Rewrite</button>
-<div id="out"></div>
+  <header class="topbar">
+    <div class="brand"><div class="logo-mark">TB</div><div class="brand-text"><h1>TrendBoard</h1><small>Paragraph Rewriter</small></div></div>
+    <nav class="nav"><a href="../index.html">Home</a><a href="index.html">Tools</a></nav>
+    <div class="actions"><button class="icon-btn">🌓</button></div>
+  </header>
 
+  <main class="container">
+    <section class="card glass">
+      <h2>Paragraph Rewriter</h2>
+      <p class="muted">Paste text and choose a transformation: simplify, shorten, or formalize.</p>
+      <textarea id="rw_text" rows="6" placeholder="Paste text here..."></textarea>
+
+      <div style="display:flex;gap:8px;margin-top:8px">
+        <select id="rw_mode"><option value="simple">Make simpler</option><option value="shorten">Shorten</option><option value="formal">Formalize</option><option value="expand">Expand</option></select>
+        <button id="rw_run" class="primary-btn">Rewrite</button>
+      </div>
+
+      <div id="rw_out" class="output" style="margin-top:12px"></div>
+      <div style="margin-top:8px"><button id="rw_copy" class="primary-btn">Copy</button></div>
+    </section>
+  </main>
+
+<script src="../assets/script.js"></script>
 <script>
-function rw(){
- let x=document.getElementById("t").value.trim();
- if(!x) return alert("Enter text first.");
+(function(){
+  const txt = document.getElementById('rw_text'), out = document.getElementById('rw_out');
+  const run = document.getElementById('rw_run'), copy = document.getElementById('rw_copy');
 
- let y="Rewritten: " + x.replace(/is/g,"seems to be").replace(/are/g,"appear to be");
- document.getElementById("out").innerText=y;
-}
+  function simplify(s){
+    // remove filler words and simplify phrases
+    return s.replace(/\b(very|actually|basically|literally|just)\b/gi,'').replace(/\s{2,}/g,' ').trim();
+  }
+  function shorten(s){
+    // keep first two sentences
+    const parts = s.match(/[^\.!?]+[\.!?]?/g) || [s];
+    return parts.slice(0,2).join(' ').trim() + (parts.length>2 ? '...' : '');
+  }
+  function formalize(s){
+    return s.replace(/\byou\b/gi,'the reader').replace(/\bI'm\b/gi,"I am").replace(/\bcan't\b/gi,'cannot');
+  }
+  function expand(s){
+    // naive: add an extra clarifying sentence
+    return s + (s.endsWith('.') ? ' ' : '. ') + 'This adds a clear summary so readers understand the key point.';
+  }
+
+  run.addEventListener('click', ()=>{
+    const v = txt.value.trim(); if(!v) return out.textContent = 'Paste text first';
+    const mode = document.getElementById('rw_mode').value;
+    let res = v;
+    if(mode === 'simple') res = simplify(res);
+    if(mode === 'shorten') res = shorten(res);
+    if(mode === 'formal') res = formalize(res);
+    if(mode === 'expand') res = expand(res);
+    out.textContent = res;
+  });
+
+  copy.addEventListener('click', ()=>{
+    const t = out.innerText || out.textContent;
+    if(!t) return alert('No output to copy');
+    navigator.clipboard.writeText(t).then(()=>alert('Copied'));
+  });
+})();
 </script>
-
 </body>
 </html>
