@@ -1,0 +1,99 @@
+/* assets/style.css — Premium TrendBoard theme (dark/light, glass, responsive) */
+
+/* Reset & base */
+* { box-sizing: border-box; }
+html,body { height:100%; }
+body {
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,#f6f8fb 0%, #eef2f6 100%);
+  color: #111;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  transition: background .3s, color .3s;
+}
+
+/* containers */
+.site-shell { min-height:100vh; display:flex; flex-direction:column; }
+.topbar {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 20px; gap:12px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(6px);
+  border-bottom:1px solid rgba(0,0,0,0.04);
+}
+.brand { display:flex; align-items:center; gap:12px; }
+.logo-mark {
+  width:48px; height:48px; border-radius:10px; display:grid; place-items:center;
+  background: linear-gradient(135deg,#111, #3b82f6);
+  color:white; font-weight:700; font-size:18px;
+}
+.brand-text h1 { margin:0; font-size:18px; }
+.brand-text small { display:block; color:#666; font-size:11px; }
+
+/* nav */
+.nav { display:flex; gap:10px; align-items:center; }
+.nav-link { color:#333; text-decoration:none; font-size:14px; padding:8px 12px; border-radius:8px; transition:.15s; }
+.nav-link:hover { background: rgba(59,130,246,0.08); color:#1e3a8a; }
+.nav-link.active { background: rgba(17,24,39,0.08); color:#111; }
+
+/* actions */
+.actions { display:flex; gap:8px; align-items:center; }
+.btn { cursor:pointer; border:0; padding:8px 12px; border-radius:8px; font-size:14px; }
+.icon-btn { background:transparent; font-size:16px; padding:8px; }
+.primary { background:#111; color:white; border-radius:10px; padding:10px 16px; }
+.small-btn { display:inline-block; padding:8px 12px; background:#111; color:#fff; border-radius:8px; text-decoration:none; }
+
+/* main */
+.main { flex:1; padding:28px; max-width:1200px; margin:0 auto; width:100%; }
+.hero { display:grid; grid-template-columns: 1fr 320px; gap:22px; align-items:start; margin-bottom:26px; }
+.hero .lead { color:#374151; margin-top:8px; }
+.hero-right .card.small { padding:14px; border-radius:12px; background:linear-gradient(180deg,rgba(255,255,255,0.85), rgba(255,255,255,0.7)); box-shadow: 0 6px 18px rgba(16,24,40,.06); }
+.cta-row { margin-top:18px; display:flex; gap:12px; }
+.tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.tag { background: rgba(17,24,39,0.06); padding:8px 10px; border-radius:999px; text-decoration:none; color:#111; font-size:13px; }
+
+/* cards grid */
+.cards-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:18px; margin-bottom:22px; }
+.panel { padding:18px; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.75)); box-shadow: 0 8px 20px rgba(16,24,40,0.06); }
+.panel h3 { margin:0 0 8px 0; }
+.panel p { margin:0 0 12px 0; color:#555; }
+
+/* newsletter */
+.newsletter { padding:18px; display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap; border-radius:12px; }
+.subscribe-row { display:flex; gap:8px; align-items:center; }
+.subscribe-row input { padding:10px 12px; border-radius:8px; border:1px solid #e6e9ef; }
+
+/* footer */
+.site-footer { padding:18px; text-align:center; color:#666; border-top:1px solid rgba(0,0,0,0.04); background:transparent; }
+
+/* small utilities */
+.mini-list { list-style:none; padding:0; margin:0; }
+.mini-list li { padding:6px 0; border-bottom:1px dashed rgba(0,0,0,0.03); color:#111; font-size:14px; }
+
+.muted { color:#666; font-size:13px; }
+
+/* glass effect util */
+.glass { border-radius:12px; padding:16px; }
+
+/* responsive */
+@media (max-width:900px) {
+  .hero { grid-template-columns: 1fr; }
+  .nav { display:none; }
+  .mobile-only { display:inline-block; }
+}
+@media (min-width:901px) {
+  .mobile-only { display:none; }
+}
+
+/* Dark theme overrides */
+.theme-dark body, .theme-dark {
+  background: linear-gradient(180deg,#0b1220 0%, #07101a 100%);
+  color:#e6eef8;
+}
+.theme-dark .topbar {
+  background: rgba(2,6,23,0.6); border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.theme-dark .nav-link { color:#cfe0ff; opacity:0.9; }
+.theme-dark .panel, .theme-dark .glass { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); box-shadow: 0 6px 18px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03); }
+.theme-dark .logo-mark { background: linear-gradient(135deg,#06b6d4,#7c3aed); }
