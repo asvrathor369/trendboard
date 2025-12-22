@@ -3,7 +3,10 @@ name: Update Google Trends JSON
 on:
   schedule:
     - cron: "0 3 * * *"   # daily at 8:30 AM IST
-  workflow_dispatch:     # manual run button
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
