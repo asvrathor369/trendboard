@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Meta Preview – TrendBoard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="logo">TrendBoard</div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../trends.html">Trends</a>
+      <a href="index.html" class="active">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+<div class="container">
+<h1>Meta Preview</h1>
+
+<textarea id="inputText" placeholder="Enter topic"
+oninput="updateCounter('inputText','counter')"></textarea>
+<div id="counter" class="muted">0 chars • 0 words</div>
+
+<button id="generateBtn" class="btn primary">Generate</button>
+
+<textarea id="output" placeholder="Generated hashtags"></textarea>
+<button class="btn secondary" onclick="copyText('output')">Copy</button>
+</div>
+</section>
+
+<footer class="footer"><p>© 2025 TrendBoard</p></footer>
+
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/tools/metapreview.js"></script>
+</body>
+</html>
