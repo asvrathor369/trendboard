@@ -1,0 +1,30 @@
+name: Update Google Trends JSON
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # daily at 8:30 AM IST
+  workflow_dispatch:     # manual run button
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Fetch Google Trends RSS
+        run: node scripts/fetchTrends.js
+
+      - name: Commit & Push changes
+        run: |
+          git config user.name "trendboard-bot"
+          git config user.email "bot@trendboard"
+          git add data/trends.json
+          git commit -m "Update Google Trends data" || exit 0
+          git push
