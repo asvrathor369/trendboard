@@ -1,36 +1,24 @@
 const fs = require("fs");
-const https = require("https");
-const { parseStringPromise } = require("xml2js");
+const Parser = require("rss-parser");
+
+const parser = new Parser({
+  customFields: {
+    item: ["ht:approx_traffic"]
+  }
+});
 
 const RSS_URL =
   "https://trends.google.com/trends/trendingsearches/daily/rss?geo=IN";
 
-function fetchRSS(url) {
-  return new Promise((resolve, reject) => {
-    https
-      .get(url, res => {
-        let data = "";
-        res.on("data", chunk => (data += chunk));
-        res.on("end", () => resolve(data));
-      })
-      .on("error", reject);
-  });
-}
-
 (async () => {
   try {
-    const xml = await fetchRSS(RSS_URL);
-    const parsed = await parseStringPromise(xml);
+    const feed = await parser.parseURL(RSS_URL);
 
-    const items =
-      parsed.rss.channel[0].item || [];
-
-    const trends = items.map(item => ({
-      title: item.title?.[0] || "",
-      traffic:
-        item["ht:approx_traffic"]?.[0] || "—",
-      description: item.description?.[0] || "",
-      link: item.link?.[0] || ""
+    const trends = feed.items.map(item => ({
+      title: item.title || "",
+      traffic: item["ht:approx_traffic"] || "—",
+      description: item.contentSnippet || "",
+      link: item.link || ""
     }));
 
     const data = {
@@ -47,7 +35,7 @@ function fetchRSS(url) {
 
     console.log(`✅ ${trends.length} trends saved`);
   } catch (err) {
-    console.error("❌ Error:", err);
+    console.error("❌ Failed to fetch trends:", err);
     process.exit(1);
   }
 })();
