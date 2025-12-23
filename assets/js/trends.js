@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data/trends.json")
+  fetch("data/trends.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Trends JSON load nahi ho paayi");
@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
         "<p>Error loading trends. Please try again later.</p>";
     });
 });
+
