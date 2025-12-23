@@ -1,8 +1,14 @@
 {
-  "updated": "2025-12-23T18:57:34.530Z",
+  "updated": "2025-12-23T19:28:07.606Z",
   "source": "Google Trends RSS",
   "region": "IN",
   "trends": [
+    {
+      "title": "arsenal vs crystal palace",
+      "traffic": "5000+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
     {
       "title": "housemaid",
       "traffic": "200+",
@@ -28,12 +34,6 @@
       "link": "https://trends.google.com/trending/rss?geo=IN"
     },
     {
-      "title": "kick",
-      "traffic": "200+",
-      "description": "",
-      "link": "https://trends.google.com/trending/rss?geo=IN"
-    },
-    {
       "title": "ana de armas",
       "traffic": "200+",
       "description": "",
@@ -47,7 +47,7 @@
     },
     {
       "title": "christmas eve",
-      "traffic": "200+",
+      "traffic": "500+",
       "description": "",
       "link": "https://trends.google.com/trending/rss?geo=IN"
     },
