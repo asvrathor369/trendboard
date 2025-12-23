@@ -1,6 +1,67 @@
 {
-  "updated": "2025-12-23T09:27:57.044Z",
+  "updated": "2025-12-23T18:57:34.530Z",
   "source": "Google Trends RSS",
   "region": "IN",
-  "trends": []
+  "trends": [
+    {
+      "title": "housemaid",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "rukmini vasanth",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "nuremberg",
+      "traffic": "100+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "assam",
+      "traffic": "2000+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "kick",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "ana de armas",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "turkey",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "christmas eve",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "venezuela",
+      "traffic": "200+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "title": "amar singh chahal",
+      "traffic": "500+",
+      "description": "",
+      "link": "https://trends.google.com/trending/rss?geo=IN"
+    }
+  ]
 }
