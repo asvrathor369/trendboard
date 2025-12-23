@@ -8,7 +8,7 @@ const parser = new Parser({
 });
 
 const RSS_URL =
-  "https://trends.google.com/trends/trendingsearches/daily/rss?geo=IN";
+  "https://trends.google.com/trending/rss?geo=IN";
 
 async function fetchWithHeaders(url) {
   const res = await fetch(url, {
@@ -57,3 +57,4 @@ async function fetchWithHeaders(url) {
     process.exit(1);
   }
 })();
+
