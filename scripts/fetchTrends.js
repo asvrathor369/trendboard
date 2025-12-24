@@ -1,60 +1,67 @@
 const fs = require("fs");
-const Parser = require("rss-parser");
 
-const parser = new Parser({
-  customFields: {
-    item: ["ht:approx_traffic"]
+const SOURCES = [
+  {
+    name: "Google Trends",
+    url: "https://trends.google.com/trending/rss?geo=IN",
+    type: "trends"
+  },
+  {
+    name: "Google News",
+    url: "https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en",
+    type: "news"
   }
-});
+];
 
-const RSS_URL =
-  "https://trends.google.com/trending/rss?geo=IN";
-
-async function fetchWithHeaders(url) {
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120",
-      "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8"
-    }
-  });
-
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status}`);
-  }
-
-  return await res.text();
+async function fetchRSS(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
 }
 
-(async () => {
-  try {
-    const xml = await fetchWithHeaders(RSS_URL);
+function extractItems(xml) {
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+}
 
-    const feed = await parser.parseString(xml);
+function getTag(block, tag) {
+  const match = block.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`));
+  return match ? match[1].replace(/<!\[CDATA\[|\]\]>/g, "").trim() : "";
+}
 
-    const trends = feed.items.map(item => ({
-      title: item.title || "",
-      traffic: item["ht:approx_traffic"] || "—",
-      description: item.contentSnippet || "",
-      link: item.link || ""
-    }));
+async function run() {
+  let allTrends = [];
 
-    const data = {
-      updated: new Date().toISOString(),
-      source: "Google Trends RSS",
-      region: "IN",
-      trends
-    };
+  for (const src of SOURCES) {
+    try {
+      const xml = await fetchRSS(src.url);
+      const items = extractItems(xml);
 
-    fs.writeFileSync(
-      "data/trends.json",
-      JSON.stringify(data, null, 2)
-    );
+      items.slice(0, 15).forEach(item => {
+        const title = getTag(item, "title");
+        if (!title) return;
 
-    console.log(`✅ ${trends.length} trends saved`);
-  } catch (err) {
-    console.error("❌ Failed to fetch trends:", err.message);
-    process.exit(1);
+        allTrends.push({
+          title,
+          source: src.name,
+          type: src.type,
+          timestamp: new Date().toISOString()
+        });
+      });
+
+    } catch (err) {
+      console.error(`❌ ${src.name} failed`, err.message);
+    }
   }
-})();
 
+  const data = {
+    updated: new Date().toISOString(),
+    region: "IN",
+    total: allTrends.length,
+    trends: allTrends
+  };
+
+  fs.writeFileSync("data/trends.json", JSON.stringify(data, null, 2));
+  console.log("✅ trends.json updated");
+}
+
+run();
