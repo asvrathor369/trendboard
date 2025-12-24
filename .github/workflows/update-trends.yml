@@ -1,12 +1,9 @@
-name: Update Google Trends JSON
+name: Update Trends (START 1)
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 3 * * *"   # daily ~8:30 AM IST
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   update:
@@ -21,16 +18,22 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
+      - name: Fetch Google Trends
+        run: node scripts/fetchGoogleTrends.js
 
-      - name: Fetch Google Trends RSS
-        run: node scripts/fetchTrends.js
+      - name: Fetch Google News
+        run: node scripts/fetchGoogleNews.js
+
+      - name: Fetch Reddit
+        run: node scripts/fetchReddit.js
+
+      - name: Merge Sources
+        run: node scripts/mergeSources.js
 
       - name: Commit & Push changes
         run: |
           git config user.name "trendboard-bot"
           git config user.email "bot@trendboard"
-          git add data/trends.json
-          git commit -m "Update Google Trends data" || exit 0
+          git add data/
+          git commit -m "Update raw trends (START 1)" || exit 0
           git push
