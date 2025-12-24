@@ -210,3 +210,52 @@ button.secondary {
   border: 1px solid #38bdf8;
   color: #38bdf8;
 }
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tabs button {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #000;
+  color: #fff;
+}
+
+.trend-card {
+  padding: 16px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0,0,0,.05);
+}
+
+.badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  background: #eee;
+}
+
+.source {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #f5f5f5;
+}
+
+
