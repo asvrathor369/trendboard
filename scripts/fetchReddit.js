@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const URL = "https://www.reddit.com/r/popular.json?limit=20";
+const URL = "https://rss.app/feeds/CD3fzXHd5cptHodl.xml";
 
 async function run() {
   const res = await fetch(URL, {
