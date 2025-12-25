@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("trends");
 
-  fetch("/data/raw-trends.json")
+  fetch("data/raw-trends.json")
     .then(res => {
       if (!res.ok) {
         throw new Error("Failed to load raw-trends.json");
@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
         "<p>Error loading trends. Please try again later.</p>";
     });
 });
+
