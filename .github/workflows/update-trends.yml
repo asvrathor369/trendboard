@@ -24,9 +24,6 @@ jobs:
       - name: Fetch Google News
         run: node scripts/fetchGoogleNews.js
 
-      - name: Fetch Reddit
-        run: node scripts/fetchReddit.js
-
       - name: Merge Sources
         run: node scripts/mergeSources.js
 
@@ -35,5 +32,5 @@ jobs:
           git config user.name "trendboard-bot"
           git config user.email "bot@trendboard"
           git add data/
-          git commit -m "Update raw trends (START 1)" || exit 0
+          git commit -m "Update raw trends (GT + GN)" || exit 0
           git push
