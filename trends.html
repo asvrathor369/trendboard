@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Live Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -21,17 +23,10 @@
 
 <section class="section">
   <div class="container">
-    <h1>🔥 Live Active Trends</h1>
+    <h1>🔥 Live Trending Topics</h1>
+    <p class="muted">Combined from Google Trends & Google News</p>
 
-    <!-- Time Tabs -->
-    <div class="tabs">
-      <button data-range="4">4h</button>
-      <button data-range="24" class="active">24h</button>
-      <button data-range="48">48h</button>
-      <button data-range="168">7d</button>
-    </div>
-
-    <!-- Trends -->
+    <!-- Trends render yahan honge -->
     <div id="trends" class="grid"></div>
   </div>
 </section>
@@ -40,6 +35,8 @@
   <p>© 2025 TrendBoard</p>
 </footer>
 
+<!-- Trends Script -->
 <script src="assets/js/trends.js"></script>
+
 </body>
 </html>
