@@ -8,7 +8,7 @@ const ranges = {
   168: 168
 };
 
-fetch("/data/raw-trends.json")
+fetch("data/raw-trends.json")
   .then(res => res.json())
   .then(data => {
     allTrends = data.trends;
@@ -63,4 +63,5 @@ function render() {
     </div>
   `).join("");
 }
+
 
