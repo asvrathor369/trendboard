@@ -1,26 +1,42 @@
 const fs = require("fs");
 
-const sources = [
-  "google-trends",
-  "google-news",
-  "reddit",
-  "youtube"
+const SOURCE_FILES = [
+  "data/sources/google-trends.json",
+  "data/sources/google-news.json"
 ];
 
 let combined = [];
 
-sources.forEach(src => {
-  const file = `data/sources/${src}.json`;
-  if (fs.existsSync(file)) {
-    const data = JSON.parse(fs.readFileSync(file));
-    data.trends.forEach(t => {
-      combined.push({
-        title: t.title,
-        source: data.source,
-        timestamp: new Date().toISOString()
-      });
-    });
+SOURCE_FILES.forEach(file => {
+  if (!fs.existsSync(file)) {
+    console.warn(`⚠️ Missing file: ${file}`);
+    return;
   }
+
+  const raw = fs.readFileSync(file, "utf-8").trim();
+
+  if (!raw) {
+    console.warn(`⚠️ Empty file skipped: ${file}`);
+    return;
+  }
+
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch (err) {
+    console.error(`❌ Invalid JSON in ${file}`);
+    return;
+  }
+
+  if (!Array.isArray(data.trends)) return;
+
+  data.trends.forEach(t => {
+    combined.push({
+      title: t.title,
+      source: data.source,
+      published: t.published || null
+    });
+  });
 });
 
 fs.writeFileSync(
@@ -36,4 +52,4 @@ fs.writeFileSync(
   )
 );
 
-console.log("✅ raw-trends.json generated");
+console.log(`✅ raw-trends.json created (${combined.length} items)`);
