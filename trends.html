@@ -5,63 +5,12 @@
   <title>Live Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Same main CSS -->
+  <!-- SAME GLOBAL CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- ONLY trends page minimal styling -->
-  <style>
-    .trends-list {
-      background: #fff;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 18px rgba(0,0,0,.06);
-    }
-
-    .trend-row {
-      display: grid;
-      grid-template-columns: 1fr 140px 140px;
-      gap: 16px;
-      align-items: center;
-      padding: 14px 18px;
-      border-bottom: 1px solid #eee;
-    }
-
-    .trend-row:last-child {
-      border-bottom: none;
-    }
-
-    .trend-title {
-      font-weight: 600;
-      color: #111;
-    }
-
-    .trend-meta {
-      font-size: 13px;
-      color: #666;
-    }
-
-    .trend-traffic {
-      font-weight: 600;
-      color: #0b57d0;
-    }
-
-    .trend-status {
-      font-size: 12px;
-      color: #1a7f37;
-      font-weight: 600;
-    }
-
-    @media (max-width: 768px) {
-      .trend-row {
-        grid-template-columns: 1fr;
-        gap: 6px;
-      }
-    }
-  </style>
 </head>
 <body>
 
-<!-- 🔹 SAME HEADER -->
+<!-- ================= HEADER ================= -->
 <header class="header">
   <div class="container">
     <div class="logo">TrendBoard</div>
@@ -73,26 +22,37 @@
   </div>
 </header>
 
-<!-- 🔹 SAME SECTION SYSTEM -->
+<!-- ================= PAGE ================= -->
 <section class="section">
   <div class="container">
+
     <h1>🔥 Live Trending Topics</h1>
     <p class="muted">
       Combined from Google Trends & Google News
     </p>
 
-    <!-- GOOGLE-TRENDS-LIKE LIST -->
-    <div id="trends" class="trends-list">
-      <p class="muted">Loading trends…</p>
+    <!-- TABLE HEADER (Google Trends style) -->
+    <div class="trend-list-header">
+      <span>Topic</span>
+      <span>Search Volume</span>
+      <span>Started</span>
     </div>
+
+    <!-- DATA YAHAN AAYEGA -->
+    <div id="trends" class="trend-list">
+      <!-- JS inject karega -->
+    </div>
+
   </div>
 </section>
 
-<!-- 🔹 SAME FOOTER -->
+<!-- ================= FOOTER ================= -->
 <footer class="footer">
   <p>© 2025 TrendBoard</p>
 </footer>
 
+<!-- ================= SCRIPT ================= -->
 <script src="assets/js/trends.js"></script>
+
 </body>
 </html>
