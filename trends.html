@@ -2,15 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Live Trends – TrendBoard</title>
+  <title>Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- SAME GLOBAL CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* GOOGLE TRENDS STYLE LIST */
+    .trend-table {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .trend-head,
+    .trend-row {
+      display: grid;
+      grid-template-columns: 40px 1fr 140px 140px 100px 40px;
+      align-items: center;
+      padding: 14px 16px;
+      gap: 10px;
+    }
+
+    .trend-head {
+      background: #020617;
+      border-bottom: 1px solid #1e293b;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .trend-row {
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .trend-row:last-child {
+      border-bottom: none;
+    }
+
+    .trend-title {
+      font-weight: 600;
+    }
+
+    .volume {
+      text-align: right;
+    }
+
+    .up {
+      color: #22c55e;
+      font-size: 12px;
+    }
+
+    .status {
+      color: #22c55e;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .dots {
+      text-align: center;
+      cursor: pointer;
+      font-size: 18px;
+      color: #94a3b8;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      .trend-head {
+        display: none;
+      }
+
+      .trend-row {
+        grid-template-columns: 24px 1fr 40px;
+        grid-template-areas:
+          "check title dots"
+          ". meta meta";
+        row-gap: 6px;
+      }
+
+      .trend-title {
+        grid-area: title;
+      }
+
+      .dots {
+        grid-area: dots;
+      }
+
+      .meta {
+        grid-area: meta;
+        font-size: 12px;
+        color: #94a3b8;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- ================= HEADER ================= -->
 <header class="header">
   <div class="container">
     <div class="logo">TrendBoard</div>
@@ -22,36 +110,58 @@
   </div>
 </header>
 
-<!-- ================= PAGE ================= -->
 <section class="section">
   <div class="container">
+    <h1>Trends</h1>
+    <p class="muted">Updated Dec 25, 11:15 PM</p>
 
-    <h1>🔥 Live Trending Topics</h1>
-    <p class="muted">
-      Combined from Google Trends & Google News
-    </p>
+    <div class="trend-table">
 
-    <!-- TABLE HEADER (Google Trends style) -->
-    <div class="trend-list-header">
-      <span>Topic</span>
-      <span>Search Volume</span>
-      <span>Started</span>
+      <div class="trend-head">
+        <div></div>
+        <div>Trend</div>
+        <div class="volume">Search volume</div>
+        <div>Started</div>
+        <div>Status</div>
+        <div></div>
+      </div>
+
+      <!-- ROW -->
+      <div class="trend-row">
+        <input type="checkbox">
+        <div class="trend-title">jyothi yarraji 100m hurdles</div>
+        <div class="volume">
+          20K+ <div class="up">↑ 1000%</div>
+        </div>
+        <div>23 hours ago</div>
+        <div class="status">Active</div>
+        <div class="dots">⋮</div>
+
+        <div class="meta">20K+ · Active · 23 hours ago</div>
+      </div>
+
+      <div class="trend-row">
+        <input type="checkbox">
+        <div class="trend-title">sarvam maya 2025</div>
+        <div class="volume">
+          20K+ <div class="up">↑ 700%</div>
+        </div>
+        <div>13 hours ago</div>
+        <div class="status">Active</div>
+        <div class="dots">⋮</div>
+
+        <div class="meta">20K+ · Active · 13 hours ago</div>
+      </div>
+
     </div>
-
-    <!-- DATA YAHAN AAYEGA -->
-    <div id="trends" class="trend-list">
-      <!-- JS inject karega -->
-    </div>
-
   </div>
 </section>
 
-<!-- ================= FOOTER ================= -->
 <footer class="footer">
-  <p>© 2025 TrendBoard</p>
+  © 2025 TrendBoard
 </footer>
 
-<!-- ================= SCRIPT ================= -->
+<script src="assets/js/core.js"></script>
 <script src="assets/js/trends.js"></script>
 
 </body>
