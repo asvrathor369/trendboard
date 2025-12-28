@@ -1,48 +1,72 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("trends");
+const DATA_URL = "data/raw-trends.json";
 
-  fetch("data/raw-trends.json")
-    .then(res => {
-      if (!res.ok) throw new Error("JSON load failed");
-      return res.json();
-    })
-    .then(data => {
-      if (!data.trends || data.trends.length === 0) {
-        container.innerHTML = "<p class='muted'>No active trends right now.</p>";
-        return;
-      }
+const table = document.querySelector(".trend-table");
+const updatedText = document.querySelector(".muted");
 
-      container.innerHTML = data.trends.map(trend => `
-        <div class="trend-row">
-          <div class="trend-topic">
-            <span class="trend-title">${escapeHTML(trend.title)}</span>
-            <span class="trend-source">${trend.source}</span>
-          </div>
+fetch(DATA_URL)
+  .then(res => res.json())
+  .then(data => {
+    if (!data.trends || data.trends.length === 0) {
+      showError("No active trends found");
+      return;
+    }
 
-          <div class="trend-volume">
-            ${trend.volume || "—"}
-          </div>
+    // update time
+    if (data.updated && updatedText) {
+      const date = new Date(data.updated);
+      updatedText.innerText =
+        "Updated " + date.toLocaleString();
+    }
 
-          <div class="trend-started">
-            ${trend.started || "Active"}
-          </div>
-        </div>
-      `).join("");
-    })
-    .catch(err => {
-      console.error(err);
-      container.innerHTML =
-        "<p class='muted'>Error loading trends. Please try again later.</p>";
+    data.trends.forEach(trend => {
+      table.appendChild(createRow(trend));
     });
-});
+  })
+  .catch(err => {
+    console.error(err);
+    showError("Error loading trends. Please try again later.");
+  });
 
-/* ---------- helper ---------- */
-function escapeHTML(str = "") {
-  return str.replace(/[&<>"']/g, m => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#039;"
-  }[m]));
+/* ----------------------- */
+
+function createRow(t) {
+  const row = document.createElement("div");
+  row.className = "trend-row";
+
+  const title = t.title || t.keyword || "Unknown trend";
+  const volume = t.volume || "--";
+  const growth = t.growth || t.change || "";
+  const started = t.started || t.time || "--";
+  const status = t.status || "Active";
+
+  row.innerHTML = `
+    <input type="checkbox">
+
+    <div class="trend-title">${title}</div>
+
+    <div class="volume">
+      ${volume}
+      ${growth ? `<div class="up">↑ ${growth}</div>` : ""}
+    </div>
+
+    <div>${started}</div>
+
+    <div class="status">${status}</div>
+
+    <div class="dots">⋮</div>
+
+    <div class="meta">
+      ${volume} · ${status} · ${started}
+    </div>
+  `;
+
+  return row;
+}
+
+function showError(msg) {
+  table.innerHTML = `
+    <div style="padding:20px;color:#94a3b8">
+      ${msg}
+    </div>
+  `;
 }
