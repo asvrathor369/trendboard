@@ -1,0 +1,87 @@
+/* GOOGLE TRENDS STYLE – LIST VIEW */
+
+.trend-table {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.trend-head,
+.trend-row {
+  display: grid;
+  grid-template-columns: 40px 1fr 140px 140px 100px 40px;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 10px;
+}
+
+.trend-head {
+  border-bottom: 1px solid #1e293b;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.trend-row {
+  border-bottom: 1px solid #1e293b;
+}
+
+.trend-row:last-child {
+  border-bottom: none;
+}
+
+.trend-title {
+  font-weight: 600;
+}
+
+.volume {
+  text-align: right;
+}
+
+.up {
+  color: #22c55e;
+  font-size: 12px;
+}
+
+.status {
+  color: #22c55e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dots {
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+
+  .trend-head {
+    display: none;
+  }
+
+  .trend-row {
+    grid-template-columns: 24px 1fr 40px;
+    grid-template-areas:
+      "check title dots"
+      ". meta meta";
+    row-gap: 6px;
+  }
+
+  .trend-title {
+    grid-area: title;
+  }
+
+  .dots {
+    grid-area: dots;
+  }
+
+  .meta {
+    grid-area: meta;
+    font-size: 12px;
+    color: #94a3b8;
+  }
+}
