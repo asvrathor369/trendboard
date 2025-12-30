@@ -1,36 +1,28 @@
-name: Update Trends (START 1)
+name: Update Trends from CSV
 
 on:
-  schedule:
-    - cron: "0 3 * * *"   # daily ~8:30 AM IST
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Fetch Google Trends
-        run: node scripts/fetchGoogleTrends.js
+      - run: npm install csv-parse node-fetch
 
-      - name: Fetch Google News
-        run: node scripts/fetchGoogleNews.js
+      - run: node scripts/parseTrendsCSV.js
 
-      - name: Merge Sources
-        run: node scripts/mergeSources.js
-
-      - name: Commit & Push changes
-        run: |
+      - run: |
           git config user.name "trendboard-bot"
           git config user.email "bot@trendboard"
-          git add data/
-          git commit -m "Update raw trends (GT + GN)" || exit 0
+          git add data/raw-trends.json
+          git commit -m "Update trends from CSV" || exit 0
           git push
