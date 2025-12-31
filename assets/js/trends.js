@@ -1,27 +1,36 @@
-fetch("data/trends.json")
-  .then(res => res.json())
-  .then(data => {
-    const list = document.getElementById("trendList");
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/trends.json")
+    .then(res => {
+      if (!res.ok) throw new Error("JSON load failed");
+      return res.json();
+    })
+    .then(data => {
+      document.getElementById("updatedText").innerText =
+        `Updated ${data.updated}`;
 
-    data.forEach((t, i) => {
-      const row = document.createElement("div");
-      row.className = "trend-row";
+      const list = document.getElementById("trendList");
 
-      row.innerHTML = `
-        <div>
-          <strong>${i + 1}. ${t.title}</strong><br>
-          <span class="muted">${t.started}</span>
+      list.innerHTML = data.trends.map(t => `
+        <div class="trend-row">
+          <div>
+            <div class="trend-title">${t.title}</div>
+            <div class="trend-meta">
+              ${t.started} · ${t.source}
+            </div>
+          </div>
+
+          <div class="trend-volume">
+            <strong>${t.volume}</strong><br/>
+            <span class="trend-growth">↑ ${t.growth}</span>
+          </div>
+
+          <div class="trend-status">✔ ${t.status}</div>
         </div>
-        <div>
-          <span>${t.volume}</span><br>
-          <span class="badge">${t.source}</span>
-        </div>
-      `;
-
-      list.appendChild(row);
+      `).join("");
+    })
+    .catch(err => {
+      document.getElementById("trendList").innerHTML =
+        "<p>Error loading trends.</p>";
+      console.error(err);
     });
-  })
-  .catch(() => {
-    document.getElementById("trendList").innerHTML =
-      "<p>Error loading trends</p>";
-  });
+});
