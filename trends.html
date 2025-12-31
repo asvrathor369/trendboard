@@ -2,14 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trends – TrendBoard</title>
+  <title>Live Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- GLOBAL -->
   <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- TRENDS ONLY -->
-  <link rel="stylesheet" href="assets/css/trends.css">
 </head>
 <body>
 
@@ -26,32 +21,10 @@
 
 <section class="section">
   <div class="container">
-    <h1>Trends</h1>
-    <p class="muted">Updated Dec 25, 11:15 PM</p>
+    <h1>🔥 Live Trending Topics</h1>
+    <p class="muted">Combined from Google Trends</p>
 
-    <div class="trend-table">
-
-      <div class="trend-head">
-        <div></div>
-        <div>Trend</div>
-        <div class="volume">Search volume</div>
-        <div>Started</div>
-        <div>Status</div>
-        <div></div>
-      </div>
-
-      <div class="trend-row">
-        <input type="checkbox">
-        <div class="trend-title">jyothi yarraji 100m hurdles</div>
-        <div class="volume">20K+ <div class="up">↑ 1000%</div></div>
-        <div>23 hours ago</div>
-        <div class="status">Active</div>
-        <div class="dots">⋮</div>
-
-        <div class="meta">20K+ · Active · 23 hours ago</div>
-      </div>
-
-    </div>
+    <div id="trendList" class="trend-list"></div>
   </div>
 </section>
 
@@ -59,7 +32,6 @@
   © 2025 TrendBoard
 </footer>
 
-<script src="assets/js/core.js"></script>
 <script src="assets/js/trends.js"></script>
 </body>
 </html>
