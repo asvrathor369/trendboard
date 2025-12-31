@@ -1,35 +1,39 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("trends");
 
-  fetch("data/trends.json")
-    .then(res => {
-      if (!res.ok) throw new Error("JSON not found");
-      return res.json();
-    })
-    .then(data => {
-      if (!data.trends || data.trends.length === 0) {
-        container.innerHTML = "<p>No trends available.</p>";
-        return;
-      }
+  try {
+    const res = await fetch("data/trends.json");
+    if (!res.ok) throw new Error("JSON load failed");
 
-      container.innerHTML = data.trends.map(item => `
-        <div class="trend-row">
-          <div>
-            <strong>${item.title}</strong><br>
-            <span class="muted">${item.started}</span>
-          </div>
+    const data = await res.json();
 
-          <div style="text-align:right">
-            <div><strong>${item.volume}</strong></div>
-            <div class="badge">↑ ${item.growth}</div>
-            <div class="badge">${item.status}</div>
-          </div>
+    // 🔑 IMPORTANT: data is already an array
+    if (!Array.isArray(data) || data.length === 0) {
+      container.innerHTML = "<p>No trends available.</p>";
+      return;
+    }
+
+    container.innerHTML = data.map(item => `
+      <div class="trend-row">
+        <div>
+          <strong>${clean(item.title)}</strong><br>
+          <span class="muted">${item.started}</span>
         </div>
-      `).join("");
-    })
-    .catch(err => {
-      console.error(err);
-      container.innerHTML =
-        "<p>Error loading trends. Please try again later.</p>";
-    });
+
+        <div style="text-align:right">
+          <div>${clean(item.volume)}</div>
+          <span class="badge">${item.status}</span>
+        </div>
+      </div>
+    `).join("");
+
+  } catch (err) {
+    console.error(err);
+    container.innerHTML =
+      "<p>Error loading trends. Please try again later.</p>";
+  }
 });
+
+function clean(text) {
+  return text ? text.replace(/^"+|"+$/g, "") : "";
+}
