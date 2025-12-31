@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Live Trends – TrendBoard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Main site CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Trends page CSS -->
+  <link rel="stylesheet" href="assets/css/trends.css" />
 </head>
 <body>
 
@@ -22,14 +26,15 @@
 <section class="section">
   <div class="container">
     <h1>🔥 Live Trending Topics</h1>
-    <p class="muted">Combined from Google Trends</p>
+    <p class="muted" id="updatedText">Loading trends…</p>
 
-    <div id="trendList" class="trend-list"></div>
+    <!-- Google-Trends-style list -->
+    <div class="trend-list" id="trendList"></div>
   </div>
 </section>
 
 <footer class="footer">
-  © 2025 TrendBoard
+  <p>© 2025 TrendBoard</p>
 </footer>
 
 <script src="assets/js/trends.js"></script>
