@@ -1,1 +1,27 @@
+name: CSV to JSON Trends
 
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/trends.csv"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - run: node scripts/csvToJson.js
+
+      - run: |
+          git config user.name "trendboard-bot"
+          git config user.email "bot@trendboard"
+          git add data/trends.json
+          git commit -m "Update trends from CSV" || exit 0
+          git push
