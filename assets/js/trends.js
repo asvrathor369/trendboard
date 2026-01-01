@@ -1,3 +1,9 @@
+function clean(value) {
+  if (!value) return "";
+  return value.replace(/^"+|"+$/g, "").trim();
+}
+
+
 document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("trends");
 
@@ -37,3 +43,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 function clean(text) {
   return text ? text.replace(/^"+|"+$/g, "") : "";
 }
+
