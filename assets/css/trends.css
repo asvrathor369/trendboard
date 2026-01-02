@@ -1,37 +1,65 @@
-/* HEADER ROW (DESKTOP) */
+/* DESKTOP HEADER */
 .trends-header {
   display: grid;
-  grid-template-columns: 3fr 1.5fr 1.5fr 1fr 40px;
+  grid-template-columns: 420px 160px 160px 140px 40px;
   padding: 12px 0;
   font-size: 14px;
   color: #94a3b8;
   border-bottom: 1px solid #1e293b;
 }
 
-/* TREND ROW */
+/* DESKTOP ROW */
 .trend-row {
   display: grid;
-  grid-template-columns: 3fr 1.5fr 1.5fr 1fr 40px;
+  grid-template-columns: 420px 160px 160px 140px 40px;
   padding: 14px 0;
   border-bottom: 1px solid #1e293b;
   align-items: center;
 }
 
+/* TITLE — FIX WIDTH + ... */
 .trend-title {
+  max-width: 420px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-weight: 500;
 }
 
+/* SEARCH VOLUME */
 .trend-volume {
+  width: 160px;
   font-weight: 600;
 }
 
+/* STARTED */
+.trend-started {
+  width: 160px;
+  font-size: 14px;
+}
+
+/* SOURCE */
+.trend-source {
+  width: 140px;
+  font-size: 13px;
+  color: #94a3b8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* THREE DOT */
+.trend-menu {
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* SUB TEXT */
 .trend-growth {
   font-size: 12px;
   color: #22c55e;
-}
-
-.trend-started {
-  font-size: 14px;
 }
 
 .trend-status {
@@ -39,18 +67,7 @@
   color: #22c55e;
 }
 
-.trend-source {
-  font-size: 13px;
-  color: #94a3b8;
-}
-
-.trend-menu {
-  cursor: pointer;
-  text-align: center;
-  font-size: 20px;
-}
-
-/* MOBILE VIEW */
+/* MOBILE */
 @media (max-width: 768px) {
 
   .trends-header {
@@ -63,12 +80,11 @@
     padding: 16px 0;
   }
 
+  .trend-title,
   .trend-volume,
   .trend-started,
   .trend-source {
-    grid-column: 1 / -1;
-    font-size: 13px;
-    color: #94a3b8;
+    max-width: 100%;
+    white-space: normal;
   }
 }
-
