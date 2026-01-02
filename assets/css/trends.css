@@ -17,10 +17,23 @@
   align-items: center;
 }
 
-/* TITLE — FIX WIDTH + ... */
+/* FIXED HEIGHT ROW */
+.trend-row {
+  display: grid;
+  grid-template-columns: 420px 160px 160px 140px 40px;
+  align-items: center;
+  height: 56px;              /* 🔥 SAME HEIGHT FOR ALL ROWS */
+  padding: 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* TITLE FIX — SINGLE LINE ALWAYS */
 .trend-title {
   max-width: 420px;
-  white-space: nowrap;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;       /* ❗ NEVER WRAP */
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 500;
@@ -29,32 +42,45 @@
 /* SEARCH VOLUME */
 .trend-volume {
   width: 160px;
+  height: 56px;
+  display: flex;
+  align-items: center;
   font-weight: 600;
 }
 
 /* STARTED */
 .trend-started {
   width: 160px;
+  height: 56px;
+  display: flex;
+  align-items: center;
   font-size: 14px;
 }
 
 /* SOURCE */
 .trend-source {
   width: 140px;
-  font-size: 13px;
-  color: #94a3b8;
+  height: 56px;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 13px;
+  color: #94a3b8;
 }
 
 /* THREE DOT */
 .trend-menu {
   width: 40px;
-  text-align: center;
-  cursor: pointer;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 20px;
+  cursor: pointer;
 }
+
 
 /* SUB TEXT */
 .trend-growth {
