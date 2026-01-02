@@ -1,46 +1,46 @@
-function clean(value) {
-  if (!value) return "";
-  return value.replace(/^"+|"+$/g, "").trim();
-}
+fetch("data/trends.json")
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("trendsList");
 
-
-document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("trends");
-
-  try {
-    const res = await fetch("data/trends.json");
-    if (!res.ok) throw new Error("JSON load failed");
-
-    const data = await res.json();
-
-    // 🔑 IMPORTANT: data is already an array
-    if (!Array.isArray(data) || data.length === 0) {
-      container.innerHTML = "<p>No trends available.</p>";
+    if (!data || data.length === 0) {
+      container.innerHTML = "No trends available.";
       return;
     }
 
     container.innerHTML = data.map(item => `
       <div class="trend-row">
-        <div>
-          <strong>${clean(item.title)}</strong><br>
-          <span class="muted">${item.started}</span>
+
+        <div class="trend-title">
+          ${clean(item.title)}
         </div>
 
-        <div style="text-align:right">
-          <div>${clean(item.volume)}</div>
-          <span class="badge">${item.status}</span>
+        <div class="trend-volume">
+          ${clean(item.volume)}
+          <div class="trend-growth">↑ 1000%</div>
         </div>
+
+        <div class="trend-started">
+          ${clean(item.started)}
+          <div class="trend-status">${item.status}</div>
+        </div>
+
+        <div class="trend-source">
+          ${item.source}
+        </div>
+
+        <div class="trend-menu">⋮</div>
+
       </div>
     `).join("");
-
-  } catch (err) {
+  })
+  .catch(err => {
+    document.getElementById("trendsList").innerHTML =
+      "Error loading trends.";
     console.error(err);
-    container.innerHTML =
-      "<p>Error loading trends. Please try again later.</p>";
-  }
-});
+  });
 
-function clean(text) {
-  return text ? text.replace(/^"+|"+$/g, "") : "";
+function clean(value) {
+  if (!value) return "";
+  return value.replace(/^"+|"+$/g, "").trim();
 }
-
