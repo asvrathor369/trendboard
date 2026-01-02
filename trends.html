@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Live Trends – TrendBoard</title>
+  <title>Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Trends page extra CSS -->
+  <link rel="stylesheet" href="assets/css/trends.css">
 </head>
 <body>
 
@@ -24,22 +27,20 @@
 <section class="section">
   <div class="container">
 
+    <!-- Header row (Desktop only) -->
     <div class="trends-header">
-      <h1>Trends</h1>
-
-      <div class="trends-cols">
-        <span>Search volume</span>
-        <span>Started</span>
-        <span>Source</span>
-        <span></span>
-      </div>
+      <div>Trends</div>
+      <div>Search volume</div>
+      <div>Started</div>
+      <div>Source</div>
+      <div></div>
     </div>
 
-    <div id="trends" class="trends-table"></div>
+    <!-- DATA COMES HERE -->
+    <div id="trendsList" class="trend-list"></div>
 
   </div>
 </section>
-
 
 <footer class="footer">
   <p>© 2025 TrendBoard</p>
@@ -48,4 +49,3 @@
 <script src="assets/js/trends.js"></script>
 </body>
 </html>
-
