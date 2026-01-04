@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <td class="col-started">
             <div class="stack">
               <span>${item.started?.replace(/"/g,"") || "-"}</span>
-              <div class="graph"></div>
+              <div class="📈 Active"></div>
             </div>
           </td>
 
@@ -42,4 +42,5 @@ document.addEventListener("DOMContentLoaded", () => {
         "<tr><td>Error loading trends.</td></tr>";
     });
 });
+
 
