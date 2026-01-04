@@ -422,13 +422,14 @@ button.secondary {
 /* Started column – date (span) */
 .col-started .stack span {
   font-weight: 600;   /* BOLD */
-  color: #e5e7eb;
+  color: #22c55e;
 }
 
 /* Started column – Active / graph row */
 .col-started .graph {
   font-weight: 600;   /* BOLD effect */
 }
+
 
 
 
