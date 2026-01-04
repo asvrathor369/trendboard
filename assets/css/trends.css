@@ -137,3 +137,27 @@
   }
 }
 
+
+
+/* STARTED COLUMN STACK */
+.started-time {
+  font-size: 13px;
+  color: #e5e7eb;
+  line-height: 1.2;
+}
+
+.started-status {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 3px;
+  font-size: 12px;
+  color: #22c55e; /* green */
+  font-weight: 500;
+}
+
+.status-icon {
+  font-size: 12px;
+}
+
+
