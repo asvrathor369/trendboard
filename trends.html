@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trends – TrendBoard</title>
+  <title>Live Trends – TrendBoard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Main CSS -->
+  <!-- MAIN SITE CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- Trends page extra CSS -->
+  <!-- TRENDS PAGE CSS -->
   <link rel="stylesheet" href="assets/css/trends.css">
 </head>
 <body>
@@ -26,19 +26,12 @@
 
 <section class="section">
   <div class="container">
+    <h1>🔥 Live Trending Topics</h1>
+    <p class="muted">Combined from Google Trends</p>
 
-    <!-- Header row (Desktop only) -->
-    <div class="trends-header">
-      <div>Trends</div>
-      <div>Search volume</div>
-      <div>Started</div>
-      <div>Source</div>
-      <div></div>
-    </div>
-
-    <!-- DATA COMES HERE -->
-    <div id="trendsList" class="trend-list"></div>
-
+    <table class="trends-table">
+      <tbody id="trendsBody"></tbody>
+    </table>
   </div>
 </section>
 
