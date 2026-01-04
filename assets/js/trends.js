@@ -1,46 +1,44 @@
-fetch("data/trends.json")
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("trendsList");
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/trends.json")
+    .then(res => res.json())
+    .then(data => {
+      const tbody = document.getElementById("trendsBody");
 
-    if (!data || data.length === 0) {
-      container.innerHTML = "No trends available.";
-      return;
-    }
+      if (!Array.isArray(data) || data.length === 0) {
+        tbody.innerHTML =
+          "<tr><td>No trends available.</td></tr>";
+        return;
+      }
 
-    container.innerHTML = data.map(item => `
-      <div class="trend-row">
+      tbody.innerHTML = data.map(item => `
+        <tr>
+          <td class="col-title" title=${item.title}>
+            ${item.title.replace(/^"|"$/g, "")}
+          </td>
 
-        <div class="trend-title">
-          ${clean(item.title)}
-        </div>
+          <td class="col-volume">
+            <div class="stack">
+              <strong>${item.volume?.replace(/"/g,"") || "-"}</strong>
+            </div>
+          </td>
 
-        <div class="trend-volume">
-          ${clean(item.volume)}
-          <div class="trend-growth">↑ 1000%</div>
-        </div>
+          <td class="col-started">
+            <div class="stack">
+              <span>${item.started?.replace(/"/g,"") || "-"}</span>
+              <div class="graph"></div>
+            </div>
+          </td>
 
-        <div class="trend-started">
-          ${clean(item.started)}
-          <div class="trend-status">${item.status}</div>
-        </div>
+          <td class="col-source">
+            ${item.source || "Google Trends"}
+          </td>
 
-        <div class="trend-source">
-          ${item.source}
-        </div>
-
-        <div class="trend-menu">⋮</div>
-
-      </div>
-    `).join("");
-  })
-  .catch(err => {
-    document.getElementById("trendsList").innerHTML =
-      "Error loading trends.";
-    console.error(err);
-  });
-
-function clean(value) {
-  if (!value) return "";
-  return value.replace(/^"+|"+$/g, "").trim();
-}
+          <td class="col-menu">⋮</td>
+        </tr>
+      `).join("");
+    })
+    .catch(() => {
+      document.getElementById("trendsBody").innerHTML =
+        "<tr><td>Error loading trends.</td></tr>";
+    });
+});
