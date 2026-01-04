@@ -1,69 +1,51 @@
-/* WRAPPER */
-.trends-list {
-  border-top: 1px solid #1e293b;
+.trends-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
-/* ROW */
-.trend-row {
-  display: grid;
-  grid-template-columns: 420px 160px 160px 140px 40px;
+.trends-table tr {
   height: 64px;
-  align-items: center;
   border-bottom: 1px solid #1e293b;
 }
 
-/* TITLE */
-.trend-title {
-  font-size: 15px;
-  font-weight: 500;
+.trends-table td {
+  padding: 10px;
+  vertical-align: middle;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* SEARCH VOLUME */
-.trend-volume {
+/* FIXED COLUMN WIDTHS (GOOGLE TRENDS STYLE) */
+.col-title   { width: 45%; }
+.col-volume  { width: 15%; }
+.col-started { width: 15%; }
+.col-source  { width: 15%; }
+.col-menu    { width: 5%; text-align: center; }
+
+/* STACKED TEXT */
+.stack {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 4px;
 }
 
-.trend-volume .value {
-  font-weight: 600;
-}
-
-.trend-volume .growth {
-  font-size: 12px;
-  color: #22c55e;
-}
-
-/* STARTED */
-.trend-started {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 4px;
-  font-size: 14px;
-}
-
-.trend-started .graph {
+/* MINI GRAPH */
+.graph {
   width: 60px;
   height: 6px;
   background: linear-gradient(90deg, #22c55e, #16a34a);
   border-radius: 4px;
 }
 
-/* SOURCE */
-.trend-source {
-  font-size: 13px;
-  color: #94a3b8;
-  white-space: nowrap;
-}
+/* MOBILE */
+@media (max-width: 768px) {
+  .col-source {
+    display: none;
+  }
 
-/* THREE DOT */
-.trend-menu {
-  text-align: center;
-  font-size: 20px;
-  cursor: pointer;
+  .col-title {
+    width: 55%;
+  }
 }
