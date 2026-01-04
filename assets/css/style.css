@@ -416,5 +416,23 @@ button.secondary {
   }
 }
 
+/* Started column – date */
+.started-time {
+  font-size: 13px;
+  color: #e5e7eb;
+  font-weight: 600;   /* 🔥 BOLD */
+}
+
+/* Started column – Active status */
+.started-status {
+  display: flex;
+  gap: 4px;
+  font-size: 12px;
+  color: #22c55e;
+  margin-top: 3px;
+  font-weight: 600;   /* 🔥 BOLD */
+}
+
+
 
 
