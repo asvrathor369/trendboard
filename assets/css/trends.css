@@ -83,3 +83,33 @@
     width: 55%;
   }
 }
+
+/* HEADER LABEL ROW */
+.trends-header {
+  display: grid;
+  grid-template-columns: 45% 15% 15% 15% 5%;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* ALIGN WITH TABLE */
+.trends-header > div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .trends-header .col-source {
+    display: none;
+  }
+}
+
+
