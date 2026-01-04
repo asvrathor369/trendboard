@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ${item.source || "Google Trends"}
           </td>
 
-          <td class="col-menu">⋮</td>
+          
         </tr>
       `).join("");
     })
@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "<tr><td>Error loading trends.</td></tr>";
     });
 });
+
 
 
 
