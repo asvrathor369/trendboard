@@ -23,11 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
           </td>
 
           <td class="col-started">
-            <div class="stack">
-              <span>${item.started?.replace(/"/g,"") || "-"}</span>
-              <div class="📈 Active"></div>
-            </div>
-          </td>
+  <div class="stack">
+    <div class="started-time">
+      ${item.started?.replace(/"/g,"") || "-"}
+    </div>
+
+    <div class="started-status">
+      <span class="status-icon">↗</span>
+      <span class="status-text">Active</span>
+    </div>
+  </div>
+</td>
+
 
           <td class="col-source">
             ${item.source || "Google Trends"}
@@ -42,5 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "<tr><td>Error loading trends.</td></tr>";
     });
 });
+
 
 
