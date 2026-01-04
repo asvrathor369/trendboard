@@ -1,24 +1,27 @@
+/* WRAPPER */
+.trends-list {
+  border-top: 1px solid #1e293b;
+}
+
 /* ROW */
 .trend-row {
   display: grid;
   grid-template-columns: 420px 160px 160px 140px 40px;
   height: 64px;
-  align-items: stretch;
+  align-items: center;
   border-bottom: 1px solid #1e293b;
 }
 
 /* TITLE */
 .trend-title {
-  display: flex;
-  align-items: center;
-  padding-right: 20px;
+  font-size: 15px;
+  font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-weight: 500;
 }
 
-/* SEARCH VOLUME (STACKED) */
+/* SEARCH VOLUME */
 .trend-volume {
   display: flex;
   flex-direction: column;
@@ -35,7 +38,7 @@
   color: #22c55e;
 }
 
-/* STARTED (STACKED) */
+/* STARTED */
 .trend-started {
   display: flex;
   flex-direction: column;
@@ -44,21 +47,15 @@
   font-size: 14px;
 }
 
-.trend-started .date {
-  font-weight: 500;
-}
-
 .trend-started .graph {
-  height: 6px;
   width: 60px;
+  height: 6px;
   background: linear-gradient(90deg, #22c55e, #16a34a);
   border-radius: 4px;
 }
 
 /* SOURCE */
 .trend-source {
-  display: flex;
-  align-items: center;
   font-size: 13px;
   color: #94a3b8;
   white-space: nowrap;
@@ -66,9 +63,7 @@
 
 /* THREE DOT */
 .trend-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   font-size: 20px;
   cursor: pointer;
 }
