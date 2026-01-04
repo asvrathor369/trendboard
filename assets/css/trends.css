@@ -98,12 +98,7 @@
   border-bottom: 1px solid #1e293b;
 }
 
-/* ALIGN WITH TABLE */
-.trends-header > div {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -112,4 +107,33 @@
   }
 }
 
+
+/* FIX HEADER LABEL VISIBILITY */
+.trends-header {
+  display: grid;
+  grid-template-columns: 45% 15% 15% 15% 5%;
+  padding: 12px 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.trends-header div {
+  font-size: 13px;
+  font-weight: 700;      /* BOLD */
+  color: #e5e7eb;
+  white-space: normal;  /* TEXT POORA DIKHE */
+  line-height: 1.2;
+}
+
+/* CENTER DOT COLUMN */
+.trends-header .col-menu {
+  text-align: center;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .trends-header .col-source {
+    display: none;
+  }
+}
 
