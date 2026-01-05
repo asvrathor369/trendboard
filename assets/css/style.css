@@ -466,3 +466,22 @@ button.secondary {
 
 
 
+
+/* ===== FOOTER LINKS STYLE ===== */
+
+.footer a {
+  color: #ffffff;        /* white color */
+  font-weight: 600;      /* semi-bold */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #38bdf8;        /* hover par light blue */
+}
+
+
+
+
+
+
+
