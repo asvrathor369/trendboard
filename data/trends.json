@@ -1,70 +1,42 @@
 [
   {
+    "title": "\"india republic day\"",
+    "volume": "\"2M+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
     "title": "\"barcelona vs oviedo\"",
-    "volume": "\"100K+\"",
+    "volume": "\"200K+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"भारत का गणतंत्र दिवस\"",
+    "volume": "\"50K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
     "title": "\"ravi bishnoi\"",
-    "volume": "\"2M+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"villarreal vs real madrid\"",
-    "volume": "\"200K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"arsenal vs man united\"",
     "volume": "\"100K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"25 जनवरी 2026 का मौसम\"",
-    "volume": "\"200K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
     "title": "\"crystal palace vs chelsea\"",
-    "volume": "\"20K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sa20\"",
     "volume": "\"50K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"padma awards 2026\"",
-    "volume": "\"50K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sydney sixers vs perth scorchers\"",
-    "volume": "\"200K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"newcastle vs aston villa\"",
-    "volume": "\"20K+\"",
+    "title": "\"pretoria capitals vs sunrisers eastern cape\"",
+    "volume": "\"100K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -77,65 +49,289 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"esb\"",
+    "title": "\"newcastle vs aston villa\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"renault duster\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"juventus vs napoli\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"border box office collection day\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"भारताचा प्रजासत्ताक दिन\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"இந்தியக் குடியரசு தினம்\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"భారత గణతంత్ర దినోత్సవం\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ભારતનો ગણતંત્ર દિવસ\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"roma vs milan\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ভারতের প্রজাতন্ত্র দিবস\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"shakib al hasan\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"alavés vs real betis\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jai hind\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"microsoft windows 11 emergency update\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"nadeem khan\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"antonio costa\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"desh bhakti song\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ben shelton\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"new zealand vs india\"",
+    "volume": "\"2M+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"open\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vishnu mohan\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"inderjit singh bindra\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"kevin yoke\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"netherlands women vs thailand women\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"गणतंत्र दिवस republic day\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"republic day speech in hindi\"",
     "volume": "\"50K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"piyush singh\"",
-    "volume": "\"20K+\"",
-    "started": "\"January 25",
+    "title": "\"bmw\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"juventus vs napoli\"",
+    "title": "\"prathamesh kadam\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"mohanlal\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"yuzvendra chahal\"",
+    "title": "\"president of india\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"what is ugc\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bangalore weather\"",
     "volume": "\"20K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"finding her edge jennifer iacopelli\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ind vs nz\"",
+    "volume": "\"500K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"abhijit majumdar\"",
-    "volume": "\"10K+\"",
+    "title": "\"today\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"patriotic songs for republic day\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"infobeans 3 1 bonus issue\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"premier league\"",
+    "volume": "\"100K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"happy republic day 2026\"",
-    "volume": "\"10K+\"",
+    "title": "\"jasprit bumrah\"",
+    "volume": "\"50K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"nipah virus outbreak west bengal\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
+    "title": "\"पीटर नवारो\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"26 january 2026 republic day\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"77th republic day 2026\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
+    "title": "\"sheikh hasina\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -147,9 +343,93 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"brentford vs nottm forest\"",
+    "title": "\"imaan mazari\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"wwe saturday night main event\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"tina dabi\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"happy republic day 2026 wishes\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"playstation plus games\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jannik sinner\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"வானிலை\"",
+    "volume": "\"50K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"shubhanshu shukla\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"al-riyadh vs al-hilal\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"real sociedad vs celta vigo\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"mammootty\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jana gana mana\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"pratika rawal\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -161,21 +441,35 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"south africa u-19 vs australia u-19\"",
+    "title": "\"ugc kya hai कानून\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"samsung galaxy galaxy s26 ultra\"",
     "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"south africa u-19 vs australia u-19\"",
+    "volume": "\"20K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mp police result\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
+    "title": "\"narendra modi\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mark tully\"",
+    "title": "\"santos vs bragantino\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
@@ -183,63 +477,7 @@
   },
   {
     "title": "\"metz vs lyon\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"laughter chefs season 3 winner\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"al-riyadh vs al-hilal\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"real sociedad vs celta vigo\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ishan kishan\"",
-    "volume": "\"50K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"gantantra diwas\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"prashant veer\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"bangladesh cricket team t20 world cup\"",
     "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"lisandro martínez\"",
-    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -252,22 +490,29 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"mardaani 3\"",
+    "title": "\"nicolás maduro\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"laughter chefs season 3 winner\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"border 2 collection day 3\"",
-    "volume": "\"10K+\"",
+    "title": "\"26 january speech in hindi 2026\"",
+    "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"what\"",
-    "volume": "\"2K+\"",
+    "title": "\"constitution\"",
+    "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -280,70 +525,105 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"sa t20\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
+    "title": "\"सोना चांदी का भाव आज\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"pl\"",
+    "title": "\"draupadi murmu\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"lorenzo musetti\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vande mataram song\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"brentford vs nottm forest\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"ireland vs italy\"",
+    "title": "\"iga świątek\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"scotland women vs nepal women\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ishan kishan\"",
     "volume": "\"50K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mohanlal\"",
+    "title": "\"bactrian camel\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"maddison inglis\"",
     "volume": "\"2K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"atalanta vs parma\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"flag hoisting\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"alex pretti\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"garena free fire max redeem codes\"",
+    "title": "\"weather bengaluru\"",
     "volume": "\"1K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"alex honnold\"",
+    "title": "\"गणतंत्र दिवस क्यों मनाया जाता है\"",
     "volume": "\"2K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"हिंदी वीडियो\"",
+    "title": "\"droupadi murmu\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bank strike 2026\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"benfica vs estrela amadora\"",
     "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
@@ -357,6 +637,139 @@
     "source": "Google Trends"
   },
   {
+    "title": "\"bhagat singh\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"auckland vs central districts\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"नामीबिया महिला बनाम आयरलैंड महिला\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"26 जनवरी क्यों मनाई जाती है\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"timberwolves vs warriors\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ind vs nz t20 2026\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"dhurandhar ott\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"cricbuzz\"",
+    "volume": "\"100K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"today is\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bank strike\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"losc vs strasbourg\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"pl\"",
+    "volume": "\"10K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"cricket\"",
+    "volume": "\"20K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"amanda anisimova\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"matheus cunha\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sandese aate hai\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"preamble of indian constitution\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"pl table\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"epl table\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
     "title": "\"gautam adani\"",
     "volume": "\"2K+\"",
     "started": "\"January 25",
@@ -364,184 +777,233 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"jan 26\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"shakeel ahmad\"",
+    "title": "\"lisandro martínez\"",
     "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"ugc bill 2026\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"senne lammens\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"26th january 2026\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"real oviedo\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"गणतंत्र दिवस\"",
+    "title": "\"papua new guinea women vs usa women\"",
     "volume": "\"1K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mbeumo\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"al-najma saudi vs al-qadisiyah\"",
+    "title": "\"eu president\"",
     "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ind vs nz t20 2026\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"cheekatilo movie 2026\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"piero hincapié\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ashton turner\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"keshav maharaj\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"more\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"genoa vs bologna\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"dhurandhar movie\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"range rover\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
     "title": "\"patrick dorgu\"",
-    "volume": "\"500+\"",
+    "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"धनु राशि साप्ताहिक राशिफल\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"constitution of india\"",
+    "title": "\"republic day speech in kannada\"",
     "volume": "\"1K+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"iran military\"",
+    "title": "\"instagram video\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"doordarshan\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"anime dragon ball super beerus\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"code\"",
     "volume": "\"5K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"kavya maran\"",
-    "volume": "\"200+\"",
+    "title": "\"nipah virus infection\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"dharmendra\"",
+    "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"endrick\"",
-    "volume": "\"200+\"",
+    "title": "\"national song\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"lyon fc\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"benfica vs estrela amadora\"",
+    "title": "\"haris rauf\"",
+    "volume": "\"5K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bolivia vs mexico\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"amazon prime\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"बांग्लादेश क्रिकेट टी20 वर्ल्ड कप\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"aaj tak news\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"today special\"",
     "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"nfl\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"pondicherry\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"border 2 song\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jessica pegula\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"elise mertens\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"thunder vs raptors\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"education maharashtra\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"tilak varma\"",
+    "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"stan wawrinka\"",
-    "volume": "\"500+\"",
+    "title": "\"जसप्रीत बुमराह\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"army\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"drdo\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"tejashwi yadav\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"senne lammens\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"melbourne victory vs sydney fc\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -553,37 +1015,37 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"murali kartik\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"senuran muthusamy\"",
+    "title": "\"lyon\"",
     "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"manchester united cole palmer\"",
+    "title": "\"atalanta vs parma\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"साप्ताहिक राशिफल कुंभ राशि\"",
     "volume": "\"500+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"fenerbahçe vs göztepe\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
+    "title": "\"amit shah\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"inter miami\"",
+    "title": "\"jio hotstar\"",
     "volume": "\"10K+\"",
-    "started": "\"January 24",
+    "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -595,120 +1057,64 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"justin gaethje\"",
-    "volume": "\"10K+\"",
+    "title": "\"gta 5\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"serie a\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ravi teja\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"antónio costa\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"water metro\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"snow storm\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"cheekatilo movie 2026\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"india t20 world cup squad\"",
+    "title": "\"real oviedo\"",
     "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mala gaonkar hedge fund\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"lungi ngidi\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"finn allen\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"amad diallo\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"learner tien\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ind vs pak\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"santi cazorla\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sunil gavaskar\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"dragonball super\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"வானிலை\"",
-    "volume": "\"50K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sunil shetty\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"tilak varma\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"बांग्लादेश क्रिकेट टी20 वर्ल्ड कप\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"t20 world cup 2026 india squad\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"सोना चांदी\"",
-    "volume": "\"1K+\"",
+    "title": "\"kuldeep yadav\"",
+    "volume": "\"10K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -721,9 +1127,86 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"tumm se tumm tak\"",
-    "volume": "\"5K+\"",
+    "title": "\"gold rate today chennai\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bruno fernandes\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"dd news\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"நியூசிலாந்து - இந்தியா\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"shubhanshu shukla wife\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"operation sindoor\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"nagaland\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"lama\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"arsenal f.c. vs manchester united f.c. lineups\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"राष्ट्रगीत\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jio hostar\"",
+    "volume": "\"2K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"red fort\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -735,49 +1218,77 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"tom cruise\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"the 50 contestants\"",
+    "title": "\"karnataka tableau republic day 2026\"",
     "volume": "\"200+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mirra andreeva\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"arne slot\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"liverpool xabi alonso\"",
+    "title": "\"al-najma saudi vs al-qadisiyah\"",
     "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"aaron hardie\"",
+    "title": "\"single inferno\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"adarsh gourav\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"tableau\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"काइल जैमीसन\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"jio\"",
     "volume": "\"2K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"republic day speech in telugu\"",
+    "title": "\"zee news live\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"australia day\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"defence minister of india\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"arne slot\"",
     "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
@@ -791,16 +1302,9 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"काइल जैमीसन\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"jio hotstar\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
+    "title": "\"nss\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -812,196 +1316,189 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"jio hostar\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"samsung galaxy s26 ultra\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"carlos alcaraz\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"gautam virani\"",
+    "title": "\"uttarakhand jhanki in republic day 2026\"",
     "volume": "\"200+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"sukhoi\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
+    "title": "\"auroville\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"நியூசிலாந்து - இந்தியா\"",
+    "title": "\"sunil gavaskar\"",
     "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"star plus\"",
+    "title": "\"mbeumo\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"indian national flag\"",
     "volume": "\"200+\"",
-    "started": "\"January 25",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"jee main 2026 expected cutoff\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"marseille vs lens\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"bcci\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"bharat ratna\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"arjun radhakrishnan\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"jio\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"naagin 7 today full episode\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"mavericks vs lakers\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"christmas bumper lottery results\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"australian open\"",
-    "volume": "\"10K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"daniel hughes\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"hotstar jio\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"anil kapoor\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ratha saptami rituals\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"nadeem khan\"",
+    "title": "\"genoa vs bologna\"",
     "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"ind vs nz 1st t20\"",
+    "title": "\"clippers vs nets\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"gold rate in chennai\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"republic day in tamil\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"xauusd\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sjvn\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"new movie\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"more\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"mitchell marsh\"",
-    "volume": "\"2K+\"",
+    "title": "\"senuran muthusamy\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"silver gold prices\"",
-    "volume": "\"5K+\"",
+    "title": "\"tom cruise\"",
+    "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"narmada jayanti 2026\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 24",
+    "title": "\"igor thiago\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"पद्म पुरस्कार 2026\"",
+    "title": "\"fluminense vs flamengo\"",
     "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vice president\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"रचिन रविंद्र\"",
+    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"ipl 2026 schedule\"",
+    "title": "\"हिंदी फिल्म\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"iphone\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"emily armstrong\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"simran bala\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"antoine semenyo\"",
+    "volume": "\"500+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"fenerbahçe vs göztepe\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"युजवेंद्र चहल\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"piero hincapié\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
@@ -1015,91 +1512,112 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"रचिन रविंद्र\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ग्लेन फिलिप्स\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"kunal khemu\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"मेहंदी\"",
+    "title": "\"bharat ratna\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"estêvão\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"k t thomas\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"marlon roos trujillo\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sjvn\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"steal tv series\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"alex de minaur\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sushma rao\"",
+    "title": "\"nda\"",
     "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"auckland weather\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"mp police constable result\"",
+    "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"national voters day\"",
-    "volume": "\"2K+\"",
+    "title": "\"today share market open\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"liverpool xabi alonso\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sec\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"spurs vs pelicans\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"anil kapoor\"",
+    "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
     "title": "\"assam\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sonam bajwa\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vijay tvk\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"nirmala sitharaman\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"republic day malayalam\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"juventus\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ipl 2026 schedule\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
@@ -1113,30 +1631,23 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"sassuolo vs cremonese\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"vaibhav suryavanshi\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"25 january 2026\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"युजवेंद्र चहल\"",
+    "title": "\"मेहंदी\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"param vir chakra\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"cds of india\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -1148,99 +1659,22 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"portsmouth vs southampton\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"tommy paul\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"aston villa vs man utd\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"live match today\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"alexander zverev\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"कुलदीप यादव\"",
+    "title": "\"stan wawrinka\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"jack edwards\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"pib\"",
+    "title": "\"manchester united cole palmer\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"న్యూజీలాండ్ వర్సెస్ భారత్\"",
+    "title": "\"maruti brezza cng underbody tank\"",
     "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"pak vs aus\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"iva jović\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"paris fc vs angers\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"salman khan\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"joel davies\"",
-    "volume": "\"1K+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -1253,155 +1687,281 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"real madrid\"",
-    "volume": "\"5K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"vidnyan mane\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"shaik rasheed\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"rrb group d\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"coco gauff\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"yungblud\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 24",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"मुख्य समाचार\"",
+    "title": "\"quinton de kock\"",
     "volume": "\"500+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"perth weather\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"saturday night main event wwe\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"umar nurmagomedov\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"aryna sabalenka\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"musheer khan\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"splitsvilla 16 episode 9\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"infosys\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"शिवम दुबे\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"royal rumble 2026\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"cold wave\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ashok chakra\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"song yadong\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"juan foyth\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"natalia silva\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"trimbakeshwar\"",
+    "title": "\"estêvão\"",
     "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"anrich nortje\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"chahal\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"liga portugal\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"lungi ngidi\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"parade starting time\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"న్యూజీలాండ్ వర్సెస్ భారత్\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"lottery sambad result\"",
+    "volume": "\"1K+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"8वें वेतन आयोग\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"epl fixtures\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"aaj tak news live\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"t20 world cup ind vs nz\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"gandhi\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sa20 winners\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"roma\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"star plus\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bridgerton\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"prime\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"पद्म पुरस्कार 2026\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"naagin 7 episode 10\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"xm\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"सिडनी सिक्सर्स बनाम पर्थ स्कोचर्स\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bitcoin\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"গণৰাজ্য দিৱস\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"epl standings\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"gautam virani\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"aston villa vs man utd\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"mikel merino\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"murali kartik\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"rukmini vasanth\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vaibhav suryavanshi\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"today date\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"sushma rao\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"t20 match\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"india match schedule\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"ind vs nz toss time\"",
+    "volume": "\"500+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"santi cazorla\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"benjamin šeško\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"fastest t20 half century in international cricket\"",
+    "volume": "\"200+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
@@ -1414,9 +1974,51 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"mann ki baat\"",
-    "volume": "\"1K+\"",
+    "title": "\"शिवम दुबे\"",
+    "volume": "\"200+\"",
     "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"vn\"",
+    "volume": "\"200+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"paris fc vs angers\"",
+    "volume": "\"200+\"",
+    "started": "\"January 25",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"krafton india esports\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"kick\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"गणतंत्र दिवस की शुभकामनाएं\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"house of the dragon\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -1435,366 +2037,9 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"narmada jayanti\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"lecce vs lazio\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"weather srinagar\"",
-    "volume": "\"1K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"तिरंगा\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ratha saptami wishes\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sun\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"palmeiras vs são paulo\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"metro\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"shashi tharoor\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"jean silva\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"shambhala movie ott\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"man ki baat\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"cmat\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"mouni roy\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"derrick lewis\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"lewis hamilton ferrari\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"mud\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"liverpool fc\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"tvk\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"álex jiménez\"",
-    "volume": "\"500+\"",
-    "started": "\"January 24",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"donald trump penguins\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"गाना\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"प्रधानमंत्री\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"तेरे इश्क में\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"real madrid match\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"republic day sale\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sonam bajwa\"",
-    "volume": "\"500+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ceo west bengal\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"western sydney wanderers fc vs perth glory\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"वैभव सूर्यवंशी\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"himachal statehood day\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"evanilson\"",
-    "volume": "\"500+\"",
-    "started": "\"January 24",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"sonam bajwa\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"christchurch weather\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"marseille fc\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"24 जनवरी मुख्य समाचार\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"amsterdam\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"points table wpl\"",
-    "volume": "\"500+\"",
-    "started": "\"January 24",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"कार्टून\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"franco mastantuono\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"northern districts vs canterbury\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"jude bellingham\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"pape gueye\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"renewable energy\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"pl table\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"rcb cricket match\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"pl\"",
-    "volume": "\"2K+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"tahir faraz\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"wpl point table\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"jazz vs heat\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"उत्तराखंड में बर्फबारी\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"fateh singh kaler\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
+    "title": "\"mirzapur\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
     "status": "Active",
     "source": "Google Trends"
   },
@@ -1806,169 +2051,22 @@
     "source": "Google Trends"
   },
   {
-    "title": "\"epl table\"",
+    "title": "\"martín zubimendi\"",
     "volume": "\"200+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
   },
   {
-    "title": "\"bindiya ke bahubali season 2\"",
+    "title": "\"celta vigo\"",
+    "volume": "\"100+\"",
+    "started": "\"January 26",
+    "status": "Active",
+    "source": "Google Trends"
+  },
+  {
+    "title": "\"bishnoi\"",
     "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"prompt\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"bbl live score\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"dune\"",
-    "volume": "\"200+\"",
-    "started": "\"January 24",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"फेसबुक\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"supercopa de españa femenina\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"tanzania u-19 vs japan u-19\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"76ers vs knicks\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"dominik szoboszlai\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"timothee chalamet\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"horror movies\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"r\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"brad pitt\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"मन की बात 25 जनवरी 2026\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"ghilli re release collection day 1\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"hardy\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"m\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"mo\"",
-    "volume": "\"200+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"picture\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"episode\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"meri zindagi hai tu\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"shahid kapoor\"",
-    "volume": "\"100+\"",
-    "started": "\"January 25",
-    "status": "Active",
-    "source": "Google Trends"
-  },
-  {
-    "title": "\"e\"",
-    "volume": "\"100+\"",
     "started": "\"January 25",
     "status": "Active",
     "source": "Google Trends"
